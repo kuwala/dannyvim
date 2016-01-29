@@ -46,3 +46,5 @@ syntax enable           " enable syntax processing
 set number              " show line numbers
 
 let @s = 'oself.'
+
+imap jj <Esc>

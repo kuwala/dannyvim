@@ -7,4 +7,4 @@ Vimrc yo~
 ### Install
 * move colors to vim folder
 
-
+imap jj <Esc>
