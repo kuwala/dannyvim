@@ -9,11 +9,14 @@ set softtabstop=2   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
 
-syntax enable           " enable syntax processing
+syntax enable       " enable syntax processing
 
-set number              " show line numbers
+set number          " show line numbers
 
 set smartindent     " indents new lines more in some cases
+
+                    " fixes smartindets comments not indenting
+inoremap # X#
 
 let @s = 'oself.'
 
