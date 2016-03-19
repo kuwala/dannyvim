@@ -8,3 +8,8 @@ Vimrc yo~
 * move colors to vim folder
 
 imap jj <Esc>
+
+### How to install
+Make a [-s] Symbolic link to the .vimrc
+ln -sf dannyvim/.vimrc ~/.vimrc
+
