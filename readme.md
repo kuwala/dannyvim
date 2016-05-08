@@ -13,3 +13,5 @@ imap jj <Esc>
 Make a [-s] Symbolic link to the .vimrc
 ln -sf dannyvim/.vimrc ~/.vimrc
 
+#### Abosolute Path:
+ln -sf ~/Documents/dannyvim/.vimrc ~/.vimrc
